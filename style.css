@@ -51,3 +51,72 @@ body {
     display: flex;
 }
 
+#loggedin-profile1, #loggedin-profile2, #loggedin-profile3 {
+    position: relative;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#loggedin-profile1:hover, #loggedin-profile2:hover, #loggedin-profile3:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+#profile1-img, #profile2-img {
+    height: 160px;
+    width: 160px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#profile3-img {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    top: 0px;
+    left: 0px;
+}
+
+.profile-name {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px;
+    text-align: center;
+}
+
+.profile-name2 {
+    color: blue;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px;
+    text-align: center;
+}
+
+.profile-cross {
+    position: absolute;
+    left: 8px;
+    color: white;
+    top: 5px;
+    border-radius: 50%;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    background-color: rgb(63, 62, 62);
+    opacity: 0.5;
+}
+
+.profile-cross:hover {
+    background-color: white;
+    opacity: 1,0;
+    color: rgb(194, 193, 193);
+    height: 25px;
+    width: 25px;
+    line-height: 22px;
+    top: -5px;
+    left: -5px;
+    font-size: 25px;
+    transition: 0.3s;
+}
